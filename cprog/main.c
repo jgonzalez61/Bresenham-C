@@ -9,13 +9,13 @@ Algorithm from LeArn_MorE
  
 This program implements the Bresenham's algorighm to draw a line.
 When this program is executed, the user will be asked for imput.
-The input shuld be in the format x y, whre x and y are integer values
+The input shuld be in the format <x> <y>, whre x and y are integer values
 representing the canvas dimenstions. I suggest usig values bigger that 400
 and smaller than 1000 for x and y. In short the program does the following
  
- 1. ask for kanvas dimensions
- 2. ask for srtart coordinates
- 3. ask for finish coordinates
+ 1. ask for kanvas dimensions, format <x> <y>
+ 2. ask for srtart coordinates,format <x> <y>
+ 3. ask for finish coordinates,format <x> <y>
     (end coordinates > start coordinates)
  4. execute Bresenhams algorithm
  5. Ouput interpreted line
