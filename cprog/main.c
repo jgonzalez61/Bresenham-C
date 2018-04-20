@@ -51,9 +51,9 @@ void init (void)
 int main(int argc, char** argv)
 {
   
-    printf("Enter the start point ");
+    printf("Enter the start coordinates ");
     scanf("%d %d", &x1, &Y1);
-    printf("Enter the End point ");
+    printf("Enter the End coordinates ");
     scanf("%d %d", &x2, &y2);
     glutInit(&argc, argv);
     glutInitDisplayMode (GLUT_SINGLE | GLUT_RGB);
